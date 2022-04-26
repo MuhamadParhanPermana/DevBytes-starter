@@ -214,7 +214,7 @@ class DevByteAdapter(val callback: VideoClick) : RecyclerView.Adapter<DevByteVie
 }
 
 /**
- * ViewHolder for DevByte items. All work is done by data binding.
+ * ViewHolder for DevByte items. All com.example.android.devbyteviewer.work is done by data binding.
  */
 class DevByteViewHolder(val viewDataBinding: DevbyteItemBinding) :
         RecyclerView.ViewHolder(viewDataBinding.root) {
